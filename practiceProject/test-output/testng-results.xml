@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="609" started-at="2019-03-06T03:04:33Z" finished-at="2019-03-06T03:04:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="609" started-at="2019-03-06T03:04:33Z" finished-at="2019-03-06T03:04:34Z">
+      <class name="draft.workWithExcelSheets">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:draft.workWithExcelSheets@55f3ddb1]" name="initializeDriver" is-config="true" duration-ms="25" started-at="2019-03-06T03:04:33Z" finished-at="2019-03-06T03:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="writeToExcelSheet()[pri:0, instance:draft.workWithExcelSheets@55f3ddb1]" name="writeToExcelSheet" duration-ms="536" started-at="2019-03-06T03:04:34Z" finished-at="2019-03-06T03:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeToExcelSheet -->
+      </class> <!-- draft.workWithExcelSheets -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

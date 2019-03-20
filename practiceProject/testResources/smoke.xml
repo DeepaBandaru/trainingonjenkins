@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="smoke suite" parallel="instances">
+	<test name="Sample Smoke">
+		<classes>
+			<class name="draft.Example1" />
+			<class name="draft.Example2" />
+		</classes>
+	</test>
+
+</suite>

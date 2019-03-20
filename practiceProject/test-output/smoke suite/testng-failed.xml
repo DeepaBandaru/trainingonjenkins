@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smoke suite]">
+  <test thread-count="5" name="Sample Smoke(failed)">
+    <classes>
+      <class name="draft.Example1">
+        <methods>
+          <include name="test2OfExample1"/>
+          <include name="test1OfExample1"/>
+        </methods>
+      </class> <!-- draft.Example1 -->
+      <class name="draft.Example2">
+        <methods>
+          <include name="scenario2OfExample2"/>
+          <include name="scenario1OfExample2"/>
+        </methods>
+      </class> <!-- draft.Example2 -->
+    </classes>
+  </test> <!-- Sample Smoke(failed) -->
+</suite> <!-- Failed suite [smoke suite] -->

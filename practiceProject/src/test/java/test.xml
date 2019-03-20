@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ 
+<data name="multiplewords">
+
+	<row wordName="firstword" searchword="pants"/>
+	<row wordName="secondword" searchword="perfume"/>
+
+</data>

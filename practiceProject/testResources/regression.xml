@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" parallel="methods">
+	<test name="Example tests">
+		<classes name="Multiple classes of current project">
+			<class name="draft.Example1" />
+			<class name="draft.Example2" />
+		</classes>
+	</test>
+</suite>
