@@ -26,6 +26,6 @@ public class Example1 {
 	
 	@BeforeTest
 	public void initializeDriver(){
-		System.setProperty("webdriver.chrome.driver", "D:/472/SeleniumTraining/workspace_framework/practiceProject/lib/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/practiceProject/lib/chromedriver.exe");
 	}
 }
