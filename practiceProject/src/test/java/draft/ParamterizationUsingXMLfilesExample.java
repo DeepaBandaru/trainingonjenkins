@@ -19,6 +19,7 @@ public class ParamterizationUsingXMLfilesExample {
 		driver.findElement(By.id("loginbutton")).click();
 		Thread.sleep(2000l);
 		System.out.println("test 1 executed");
+		//This a simple Example
 		driver.quit();
 	}
 }
