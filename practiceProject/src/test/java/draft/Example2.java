@@ -25,6 +25,7 @@ public class Example2 {
 	
 	@BeforeTest
 	public void initializeDriver(){
-		System.setProperty("webdriver.chrome.driver", "C:/Users/jayak/git/trainingonjenkins/practiceProject/lib/chromedriver.exe");
+		String currentDirecory = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",currentDirecory+"/lib/chromedriver.exe");
 	}
 }
